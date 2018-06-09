@@ -1,5 +1,5 @@
 //make import from css folder
-import styles from './app.css';
+import styles from './app.scss';
 
 //testing css modules
 function component() {
