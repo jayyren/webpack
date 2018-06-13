@@ -13,6 +13,8 @@ function component() {
   return element;
 }
 
+
+
 document.body.appendChild(component());
 
 // import greetings from './content.js'

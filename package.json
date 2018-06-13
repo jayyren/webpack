@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/jaarenov/webpack#readme",
   "devDependencies": {
+    "@stencil/webpack": "0.0.6",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
