@@ -1,6 +1,6 @@
 const path = require('path');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
-const stencil = require('@stencil/webpack');
+// const stencil = require('@stencil/webpack');
 
   module.exports = {
     entry: './src/app.js',
@@ -54,11 +54,10 @@ const stencil = require('@stencil/webpack');
    },
 
     plugins: [
-      new ExtractTextPlugin("styles.css"),
-      new stencil.StencilPlugin({
-        collections: [
-          'collection/components/my-component',
-          'collection/components/outer-box'
-    ]})
+      new ExtractTextPlugin("styles.css")
+    //   new stencil.StencilPlugin({
+    //     collections: [
+
+    // ]})
   ]
   };
